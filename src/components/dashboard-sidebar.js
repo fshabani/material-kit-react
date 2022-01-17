@@ -23,6 +23,11 @@ const items = [
     title: 'Dashboard'
   },
   {
+    href: '/members',
+    icon: (<UsersIcon fontSize="small" />),
+    title: 'Members'
+  },
+  {
     href: '/customers',
     icon: (<UsersIcon fontSize="small" />),
     title: 'Customers'
@@ -124,15 +129,15 @@ export const DashboardSidebar = (props) => {
                   color="inherit"
                   variant="subtitle1"
                 >
-                  Acme Inc
+                  NGO Membeership
                 </Typography>
                 <Typography
                   color="neutral.400"
                   variant="body2"
                 >
-                  Your tier
+                  Regjister
                   {' '}
-                  : Premium
+                  : Preciz
                 </Typography>
               </div>
               <SelectorIcon
@@ -172,13 +177,13 @@ export const DashboardSidebar = (props) => {
             color="neutral.100"
             variant="subtitle2"
           >
-            Need more features?
+            Keni nevoje per me teper?
           </Typography>
           <Typography
             color="neutral.500"
             variant="body2"
           >
-            Check out our Pro solution template.
+            Referencat per ju.
           </Typography>
           <Box
             sx={{
@@ -192,12 +197,12 @@ export const DashboardSidebar = (props) => {
             }}
           >
             <img
-              alt="Go to pro"
+              alt="fs.mk"
               src="/static/images/sidebar_pro.png"
             />
           </Box>
           <NextLink
-            href="https://material-kit-pro-react.devias.io/"
+            href="http://fs.mk/"
             passHref
           >
             <Button
@@ -208,7 +213,7 @@ export const DashboardSidebar = (props) => {
               sx={{ mt: 2 }}
               variant="contained"
             >
-              Pro Live Preview
+              Visit for more
             </Button>
           </NextLink>
         </Box>

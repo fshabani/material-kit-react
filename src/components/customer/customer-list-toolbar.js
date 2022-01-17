@@ -26,7 +26,7 @@ export const CustomerListToolbar = (props) => (
         sx={{ m: 1 }}
         variant="h4"
       >
-        Customers
+        Anëtarsia
       </Typography>
       <Box sx={{ m: 1 }}>
         <Button
@@ -41,12 +41,7 @@ export const CustomerListToolbar = (props) => (
         >
           Export
         </Button>
-        <Button
-          color="primary"
-          variant="contained"
-        >
-          Add Customers
-        </Button>
+
       </Box>
     </Box>
     <Box sx={{ mt: 3 }}>
@@ -67,7 +62,7 @@ export const CustomerListToolbar = (props) => (
                   </InputAdornment>
                 )
               }}
-              placeholder="Search customer"
+              placeholder="Search members"
               variant="outlined"
             />
           </Box>
